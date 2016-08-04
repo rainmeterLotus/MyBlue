@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- RoundAngleImageView -->
+    <declare-styleable name="BlueAngleImageView">
+        <attr name="roundAngleWidth" format="dimension" />
+        <attr name="roundAngleHeight" format="dimension" />
+    </declare-styleable>
+
+    <attr name="borderRadius" format="dimension" />
+    <attr name="type">
+        <enum name="circle" value="0" />
+        <enum name="round" value="1" />
+    </attr>
+
+    <declare-styleable name="RoundImageView">
+        <attr name="borderRadius" />
+        <attr name="type" />
+    </declare-styleable>
+
+    <!-- GlobalBackTitleBarView -->
+    <declare-styleable name="GlobalBackTitleBarView">
+        <attr name="android:text" />
+        <attr name="android:textColor" />
+        <attr name="android:textSize" />
+    </declare-styleable>
+
+</resources>
